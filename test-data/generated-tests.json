@@ -1,0 +1,24 @@
+{
+  "testCases": [
+    {
+      "name": "Login Flow",
+      "steps": [
+        { "action": "navigate", "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" },
+        { "action": "type", "locator": "name=username", "value": "Admin" },
+        { "action": "type", "locator": "name=password", "value": "admin123" },
+        { "action": "click", "locator": "xpath=//button[@type='submit']" },
+        { "action": "assert_url", "value": "dashboard" }
+      ]
+    },
+    {
+      "name": "Negative Login",
+      "steps": [
+        { "action": "navigate", "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" },
+        { "action": "type", "locator": "name=username", "value": "wrong" },
+        { "action": "type", "locator": "name=password", "value": "wrong" },
+        { "action": "click", "locator": "xpath=//button[@type='submit']" },
+        { "action": "assert_element", "locator": "xpath=//p[contains(@class,'oxd-alert-content-text')]" }
+      ]
+    }
+  ]
+}

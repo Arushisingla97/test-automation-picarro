@@ -1,0 +1,15 @@
+/Users/arushisingla/Desktop/PicarroQaAssignment/ui-automation/src/main/java/com/picarro/common/utils/ExtentManager.java
+/Users/arushisingla/Desktop/PicarroQaAssignment/ui-automation/src/main/java/com/picarro/common/utils/ScreenshotUtil.java
+/Users/arushisingla/Desktop/PicarroQaAssignment/ui-automation/src/main/java/com/picarro/common/utils/TestListener.java
+/Users/arushisingla/Desktop/PicarroQaAssignment/ui-automation/src/main/java/com/picarro/ui/ai/AILocatorHealer.java
+/Users/arushisingla/Desktop/PicarroQaAssignment/ui-automation/src/main/java/com/picarro/ui/ai/DOMFetcher.java
+/Users/arushisingla/Desktop/PicarroQaAssignment/ui-automation/src/main/java/com/picarro/ui/ai/LocatorAIEngine.java
+/Users/arushisingla/Desktop/PicarroQaAssignment/ui-automation/src/main/java/com/picarro/ui/ai/LocatorRepository.java
+/Users/arushisingla/Desktop/PicarroQaAssignment/ui-automation/src/main/java/com/picarro/ui/base/BaseTest.java
+/Users/arushisingla/Desktop/PicarroQaAssignment/ui-automation/src/main/java/com/picarro/ui/base/DriverFactory.java
+/Users/arushisingla/Desktop/PicarroQaAssignment/ui-automation/src/main/java/com/picarro/ui/pages/DashboardPage.java
+/Users/arushisingla/Desktop/PicarroQaAssignment/ui-automation/src/main/java/com/picarro/ui/pages/LoginPage.java
+/Users/arushisingla/Desktop/PicarroQaAssignment/ui-automation/src/main/java/com/picarro/ui/pages/PIMPage.java
+/Users/arushisingla/Desktop/PicarroQaAssignment/ui-automation/src/main/java/com/picarro/ui/utils/ConfigReader.java
+/Users/arushisingla/Desktop/PicarroQaAssignment/ui-automation/src/main/java/com/picarro/ui/utils/SmartDriver.java
+/Users/arushisingla/Desktop/PicarroQaAssignment/ui-automation/src/main/java/com/picarro/ui/utils/WaitUtils.java

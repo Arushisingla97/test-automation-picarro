@@ -1,0 +1,3 @@
+com/picarro/api/tests/CurrencyApiTest.class
+com/picarro/api/tests/CountriesApiTest.class
+com/picarro/api/tests/RegionApiTest.class

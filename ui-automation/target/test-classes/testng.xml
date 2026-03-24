@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="UI Automation Suite" parallel="false">
+
+    <listeners>
+        <listener class-name="com.picarro.common.utils.TestListener"/>
+    </listeners>
+
+    <parameter name="headless" value="false"/>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.picarro.ui.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Add Employee Tests">
+        <classes>
+            <class name="com.picarro.ui.tests.AddEmployeeTest"/>
+        </classes>
+    </test>
+
+    <test name="Self Healing Tests">
+        <classes>
+            <class name="com.picarro.ui.tests.SelfHealingTest"/>
+        </classes>
+    </test>
+
+</suite>

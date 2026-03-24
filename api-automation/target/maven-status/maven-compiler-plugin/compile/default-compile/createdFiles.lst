@@ -1,0 +1,9 @@
+com/picarro/api/ai/AiResponseAnalyzer.class
+com/picarro/api/models/CountryResponse.class
+com/picarro/api/models/Currency.class
+com/picarro/api/validators/ResponseValidator.class
+com/picarro/api/validators/SchemaValidator.class
+com/picarro/api/services/CountriesService.class
+com/picarro/api/models/Name.class
+com/picarro/api/base/BaseApiTest.class
+com/picarro/api/ai/AiTestDataGenerator.class

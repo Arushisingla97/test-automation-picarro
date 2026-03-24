@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UI Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="headless" value="false"/>
+  <listeners>
+    <listener class-name="com.picarro.common.utils.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Login Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.picarro.ui.tests.LoginTest">
+        <methods>
+          <include name="verifyBlankLogin"/>
+          <include name="initPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.picarro.ui.tests.LoginTest -->
+    </classes>
+  </test> <!-- Login Tests(failed) -->
+  <test thread-count="5" name="Self Healing Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.picarro.ui.tests.SelfHealingTest">
+        <methods>
+          <include name="verifySelfHealingLocator"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.picarro.ui.tests.SelfHealingTest -->
+    </classes>
+  </test> <!-- Self Healing Tests(failed) -->
+</suite> <!-- Failed suite [UI Automation Suite] -->
